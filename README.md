@@ -1,14 +1,15 @@
-# 유성의 록맨 3 NDS 한국어 패치 v1.0.1
+# 유성의 록맨 3 NDS 한국어 패치 v1.0.2
 
-버전별 패치: 2026-11-01
+버전 확정일: 2026-11-04\
 패치 적용 대상: 流星のロックマン3 ブラックエース 일본판(CRBJ, revision 1) 또는 レッドジョーカー 일본판(CRRJ, revision 1)
 
-ZIP에는 원본 ROM이나 패치 완료 ROM이 들어 있지 않습니다. 정품에서 추출한 아래 해시와 일치하는 블랙 에이스 또는 레드 조커 일본판 원본 ROM이 필요합니다. 적용할 때는 그 버전의 원본 하나만 씁니다.
+## 두 판
 
 | 판 | 적용할 원본 | 패치 | 결과 |
 |---|---|---|---|
-| 블랙 에이스판 | Ryuusei no Rockman 3 - Black Ace (Japan) (Rev 1).nds | Ryuusei3-BA-KO-v1.0.1.bps | Ryuusei3-BA-KO-v1.0.1.nds |
-| 레드 조커판 | Ryuusei no Rockman 3 - Red Joker (Japan) (Rev 1).nds | Ryuusei3-RJ-KO-v1.0.1.bps | Ryuusei3-RJ-KO-v1.0.1.nds |
+| 블랙 에이스판 | Ryuusei no Rockman 3 - Black Ace (Japan) (Rev 1).nds | Ryuusei3-BA-KO-v1.0.2.bps | Ryuusei3-BA-KO-v1.0.2.nds |
+| 레드 조커판 | Ryuusei no Rockman 3 - Red Joker (Japan) (Rev 1).nds | Ryuusei3-RJ-KO-v1.0.2.bps | Ryuusei3-RJ-KO-v1.0.2.nds |
+
 
 ## 지원 원본
 
@@ -17,12 +18,14 @@ ZIP에는 원본 ROM이나 패치 완료 ROM이 들어 있지 않습니다. 정�
 | Ryuusei no Rockman 3 - Black Ace (Japan) (Rev 1).nds | 33,554,432 | 13e593dd95ff455b6c56cfc24d01e9f5 | 334c859d3a86cd4ffa7da0c1155b06cc8f8071ed3d04db3f548e51470be1680d |
 | Ryuusei no Rockman 3 - Red Joker (Japan) (Rev 1).nds | 33,554,432 | e37708923f7dee924baf69fa84e220eb | 0481662f341ebba0ef441492dd4965c15def441818a52bcd932c2a2d0e983cb4 |
 
+파일 이름보다 크기와 해시가 기준입니다. 블랙 에이스판 패치는 블랙 에이스 원본에만, 레드 조커판 패치는 레드 조커 원본에만 적용됩니다. Rev 0, 해외판, 이미 패치한 ROM, 다른 한글·영문 패치가 적용된 ROM은 입력 대상이 아닙니다.
+
 ## 패치 결과
 
 | 파일 | 크기(바이트) | SHA-256 |
 |---|---|---|
-| Ryuusei3-BA-KO-v1.0.1.nds | 33,554,432 | dc38595be20d7788b8466661d9c3679a837af91f8b67297ab95bc386def335ed |
-| Ryuusei3-RJ-KO-v1.0.1.nds | 33,554,432 | 21e3d3b39cbf2e3760123653715da4a6cf0c66a42467145e9d096a6734d90f2d |
+| Ryuusei3-BA-KO-v1.0.2.nds | 33,554,432 | 2d5480d9e5acd61cca38bf07cfe931dae90590bff5ca97649f7d53819bc23219 |
+| Ryuusei3-RJ-KO-v1.0.2.nds | 33,554,432 | 4d072ffb9b144a85db9c2e4f4d39556d949e65f85be3459fc463be97d17bb132 |
 
 두 결과에는 각 버전의 한국어화와 아래 추가 기능이 들어 있습니다. 블랙 에이스판은 머리글·본체 메뉴용 배너가 블랙 에이스 원본이고, 레드 조커판은 머리글의 제목·게임 코드(CRRJ)와 배너가 레드 조커 원본입니다.
 
@@ -30,9 +33,9 @@ ZIP에는 원본 ROM이나 패치 완료 ROM이 들어 있지 않습니다. 정�
 
 | 파일 | 크기(바이트) | SHA-256 |
 |---|---|---|
-| Ryuusei3-KO-v1.0.1-BA-RJ.zip | 1,592,669 | 8891eb550bda4696a36d3d3a86cd2562f982b0c2848c29b041053f6f360087d2 |
-| Ryuusei3-BA-KO-v1.0.1.bps | 1,269,839 | c6dd24ff383c0690bf7eb6d9d15ada4360b6eaeb42c8ac9ff99fd28c20c0e271 |
-| Ryuusei3-RJ-KO-v1.0.1.bps | 1,702,160 | 6ee4dd81e83cb22da957dd7610f6f9cf9bb0ec6e576a6097b301fb17236a4564 |
+| Ryuusei3-KO-v1.0.2-BA-RJ.zip | 1,594,317 | b6fa129f9d88168e4b039ed5e9f53728a3689d016bbed955feb57c16fae5ce74 |
+| Ryuusei3-BA-KO-v1.0.2.bps | 1,270,374 | 0fc73515b0ce36b0df0fd2a009bdca93072dd51b4197bfee9d76cf8dd5c3454b |
+| Ryuusei3-RJ-KO-v1.0.2.bps | 1,702,647 | 0777e9bad4e36bd270f71322424f5c59ab9be87c4427ea6934a40e2a81c694bb |
 
 ### 부가 기능 메뉴와 어시스트
 
