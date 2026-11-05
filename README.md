@@ -1,15 +1,16 @@
-# 유성의 록맨 3 NDS 한국어 패치 v1.0.2
+# 유성의 록맨 3 NDS 한국어 패치 v1.0.3
 
-버전 확정일: 2026-11-04\
+버전 확정일: 2026-11-06
 패치 적용 대상: 流星のロックマン3 ブラックエース 일본판(CRBJ, revision 1) 또는 レッドジョーカー 일본판(CRRJ, revision 1)
 
 ## 두 판
 
 | 판 | 적용할 원본 | 패치 | 결과 |
 |---|---|---|---|
-| 블랙 에이스판 | Ryuusei no Rockman 3 - Black Ace (Japan) (Rev 1).nds | Ryuusei3-BA-KO-v1.0.2.bps | Ryuusei3-BA-KO-v1.0.2.nds |
-| 레드 조커판 | Ryuusei no Rockman 3 - Red Joker (Japan) (Rev 1).nds | Ryuusei3-RJ-KO-v1.0.2.bps | Ryuusei3-RJ-KO-v1.0.2.nds |
+| 블랙 에이스판 | Ryuusei no Rockman 3 - Black Ace (Japan) (Rev 1).nds | Ryuusei3-BA-KO-v1.0.3.bps | Ryuusei3-BA-KO-v1.0.3.nds |
+| 레드 조커판 | Ryuusei no Rockman 3 - Red Joker (Japan) (Rev 1).nds | Ryuusei3-RJ-KO-v1.0.3.bps | Ryuusei3-RJ-KO-v1.0.3.nds |
 
+레드 조커판은 블랙 에이스 프로그램에 레드 조커의 값(최종 형태 조커 PGM, 상점 카드, 보상 비중, 커스텀 화면·폴더·타이틀 음성, 버전별 대사와 이벤트 등)을 빌드 때 넣고, 레드 조커 전용 그림 95항목을 제자리에 넣어 만듭니다. v1.0 통합판의 레드 조커 모드와 같은 결과입니다. ROM 머리글의 제목·게임 코드(RR3_R_JOKER, CRRJ)와 본체 메뉴의 아이콘·제목은 레드 조커 원본 것이고, 세이브 머리글도 레드 조커 형식(`rr3_r080711`)입니다.
 
 ## 지원 원본
 
@@ -24,8 +25,8 @@
 
 | 파일 | 크기(바이트) | SHA-256 |
 |---|---|---|
-| Ryuusei3-BA-KO-v1.0.2.nds | 33,554,432 | 2d5480d9e5acd61cca38bf07cfe931dae90590bff5ca97649f7d53819bc23219 |
-| Ryuusei3-RJ-KO-v1.0.2.nds | 33,554,432 | 4d072ffb9b144a85db9c2e4f4d39556d949e65f85be3459fc463be97d17bb132 |
+| Ryuusei3-BA-KO-v1.0.3.nds | 33,554,432 | 2a4bda287b2ab28596050ef30e6b411fba5323d0ef0b1d58edf8d05126fd0122 |
+| Ryuusei3-RJ-KO-v1.0.3.nds | 33,554,432 | fcf46a63e90ec5da107f3fd04d2760bda554796a7af7133c4b779f7156546477 |
 
 두 결과에는 각 버전의 한국어화와 아래 추가 기능이 들어 있습니다. 블랙 에이스판은 머리글·본체 메뉴용 배너가 블랙 에이스 원본이고, 레드 조커판은 머리글의 제목·게임 코드(CRRJ)와 배너가 레드 조커 원본입니다.
 
@@ -33,9 +34,9 @@
 
 | 파일 | 크기(바이트) | SHA-256 |
 |---|---|---|
-| Ryuusei3-KO-v1.0.2-BA-RJ.zip | 1,594,317 | b6fa129f9d88168e4b039ed5e9f53728a3689d016bbed955feb57c16fae5ce74 |
-| Ryuusei3-BA-KO-v1.0.2.bps | 1,270,374 | 0fc73515b0ce36b0df0fd2a009bdca93072dd51b4197bfee9d76cf8dd5c3454b |
-| Ryuusei3-RJ-KO-v1.0.2.bps | 1,702,647 | 0777e9bad4e36bd270f71322424f5c59ab9be87c4427ea6934a40e2a81c694bb |
+| Ryuusei3-KO-v1.0.3-BA-RJ.zip | 1,547,852 | 2bb55a3b2cc1c0a87b5c47af3a1f34a9cab45839b9b694f9f9674c5b1b536e7a |
+| Ryuusei3-BA-KO-v1.0.3.bps | 1,243,712 | cf96e081bafd3393498b10dd097b9991f978f13c13a89f3ce499202dd0f3befc |
+| Ryuusei3-RJ-KO-v1.0.3.bps | 1,676,596 | af32e4f3157376021119c4cf987b55d51766398a6821704d733ce787284ec752 |
 
 ### 부가 기능 메뉴와 어시스트
 
