@@ -1,11 +1,20 @@
-# 유성의 록맨 3 NDS 한국어 패치 v1.0.4.1
+# 유성의 록맨 3 NDS 한국어 패치 v1.0.4.2
 
 블랙 에이스판·레드 조커판
 
-버전 확정일: 2026-11-13
+버전 확정일: 2026-11-21\
 패치 적용 대상: 流星のロックマン3 ブラックエース 일본판(CRBJ, revision 1) 또는 レッドジョーカー 일본판(CRRJ, revision 1)
 
 ZIP에는 원본 ROM이나 패치 완료 ROM이 들어 있지 않습니다. 정품에서 추출한 아래 해시와 일치하는 블랙 에이스 또는 레드 조커 일본판 원본 ROM이 필요합니다. 적용할 때는 그 버전의 원본 하나만 씁니다.
+
+## 두 판
+
+| 판 | 적용할 원본 | 패치 | 결과 |
+|---|---|---|---|
+| 블랙 에이스판 | Ryuusei no Rockman 3 - Black Ace (Japan) (Rev 1).nds | Ryuusei3-BA-KO-v1.0.4.2.bps | Ryuusei3-BA-KO-v1.0.4.2.nds |
+| 레드 조커판 | Ryuusei no Rockman 3 - Red Joker (Japan) (Rev 1).nds | Ryuusei3-RJ-KO-v1.0.4.2.bps | Ryuusei3-RJ-KO-v1.0.4.2.nds |
+
+레드 조커판은 블랙 에이스 프로그램에 레드 조커의 값(최종 형태 조커 PGM, 상점 카드, 보상 비중, 커스텀 화면·폴더·타이틀 음성, 버전별 대사와 이벤트 등)을 빌드 때 넣고, 레드 조커 전용 그림 95항목을 제자리에 넣어 만듭니다. v1.0 통합판의 레드 조커 모드와 같은 결과입니다. ROM 머리글의 제목·게임 코드(RR3_R_JOKER, CRRJ)와 본체 메뉴의 아이콘·제목은 레드 조커 원본 것이고, 세이브 머리글도 레드 조커 형식(`rr3_r080711`)입니다.
 
 ## 지원 원본
 
@@ -20,8 +29,8 @@ ZIP에는 원본 ROM이나 패치 완료 ROM이 들어 있지 않습니다. 정�
 
 | 파일 | 크기(바이트) | SHA-256 |
 |---|---|---|
-| Ryuusei3-BA-KO-v1.0.4.1.nds | 33,554,432 | 4b150113403a77589ea73dd0be6f45442e97a793f12ef0e1e8834e43f6ce2201 |
-| Ryuusei3-RJ-KO-v1.0.4.1.nds | 33,554,432 | 0b5fb7d2e1e904d0fc9076fdba05b2b2c60607d96248ae2165aed1fb73072f9f |
+| Ryuusei3-BA-KO-v1.0.4.2.nds | 33,554,432 | 8b84aa82caf9b7e0a3406100f78677ac4c1817b0652fc9c97f94a728a3fd95a5 |
+| Ryuusei3-RJ-KO-v1.0.4.2.nds | 33,554,432 | 481975523da515afaa502504bc240a16db5380f1bb84e4d2515c6bbc9c077388 |
 
 두 결과에는 각 버전의 한국어화와 아래 추가 기능이 들어 있습니다. 블랙 에이스판은 머리글·본체 메뉴용 배너가 블랙 에이스 원본이고, 레드 조커판은 머리글의 제목·게임 코드(CRRJ)와 배너가 레드 조커 원본입니다.
 
@@ -29,9 +38,11 @@ ZIP에는 원본 ROM이나 패치 완료 ROM이 들어 있지 않습니다. 정�
 
 | 파일 | 크기(바이트) | SHA-256 |
 |---|---|---|
-| Ryuusei3-KO-v1.0.4.1-BA-RJ.zip | 1,550,716 | 0bd4abe750cf930066323f07222f27282ed3ff320cee7d12a94e4b1a524c637f |
-| Ryuusei3-BA-KO-v1.0.4.1.bps | 1,244,527 | d5a4e78b32a10ebd57cb6c68044bb1776a44286f67f650c24d3fb34efa9ed742 |
-| Ryuusei3-RJ-KO-v1.0.4.1.bps | 1,677,364 | 09c7d701c6fc77fe53ab38c58d5785da15aba088e82fb40413e36fb27079ec30 |
+| Ryuusei3-KO-v1.0.4.2-BA-RJ.zip | 1,550,930 | c052718c41711da13600098bf6fecfe59d5c9942fa24acdea0e1511338c3bddb |
+| Ryuusei3-BA-KO-v1.0.4.2.bps | 1,244,524 | 79e0fa0612fe5a611889482911f6290ba4f36b7d013d9dfd5a5c11eef64f01c9 |
+| Ryuusei3-RJ-KO-v1.0.4.2.bps | 1,677,441 | e937b8e5fe8ef570c30197afad6aee10947649b3f86622140ec2ab06fad382a4 |
+
+Ryuusei3-KO-v1.0.4.2-BA-RJ.zip에는 두 판의 BPS 패치, 적용 스크립트(apply_patch.py, bps.py), 설명서(README.txt), manifest.json, 갈무리 라이선스(GALMURI_OFL.txt), 참고 도구의 저작권 고지(TEXTPET_MIT.txt)가 들어 있습니다. ROM, 세이브, 원본 그림 비교 자료, Windows 글꼴 파일은 넣지 않았습니다. ZIP의 크기·해시는 별도 RELEASE_NOTES.md에, 파일별 해시는 SHA256SUMS.txt에 기록합니다.
 
 ### 부가 기능 메뉴와 어시스트
 
